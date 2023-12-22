@@ -1,0 +1,8 @@
+<header class="header">
+    <img class="logo" src="../../../assets/logo.svg" alt="">
+    @if (Open) {
+        <img (click)="Open=false"  src="../../../assets/icon-close.svg" alt="">
+    }@else {
+        <img (click)="Open=true" src="../../../assets/icon-hamburger.svg" alt="">
+    }
+</header>

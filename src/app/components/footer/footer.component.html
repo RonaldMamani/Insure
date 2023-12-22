@@ -1,0 +1,51 @@
+<footer class="footer">
+    <img class="logo" src="../../../assets/logo.svg" alt="">
+    <div class="social">
+        <a href="#">
+            <img src="../../../assets/icon-facebook.svg" alt="">
+        </a>
+        <a href="#">
+            <img src="../../../assets/icon-twitter.svg" alt="">
+        </a>
+        <a href="#">
+            <img src="../../../assets/icon-pinterest.svg" alt="">
+        </a>
+        <a href="#">
+            <img src="../../../assets/icon-instagram.svg" alt="">
+        </a>
+    </div>
+    <div class="linkCompany">
+        <div class="Group">
+            <span class="titleGroup">{{titleOur}}</span>
+            <div class="linksGroup">
+                @for (our of our; track our.id) {
+                    <a class="link" href="#">{{our.name}}</a>
+                }
+            </div>
+        </div>
+        <div class="Group">
+            <span class="titleGroup">{{titleMe}}</span>
+            <div class="linksGroup">
+                @for (help of help; track help.id) {
+                    <a class="link" href="#">{{help.name}}</a>
+                }
+            </div>
+        </div>
+        <div class="Group">
+            <span class="titleGroup">{{titleContact}}</span>
+            <div class="linksGroup">
+                @for (contact of contact; track contact.id) {
+                    <a class="link" href="#">{{contact.name}}</a>
+                }
+            </div>
+        </div>
+        <div class="Group">
+            <span class="titleGroup">{{titleOth}}</span>
+            <div class="linksGroup">
+                @for (outhers of outhers; track outhers.id) {
+                    <a class="link" href="#">{{outhers.name}}</a>
+                }
+            </div>
+        </div>
+    </div>
+</footer>
