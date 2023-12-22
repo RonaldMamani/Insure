@@ -1,0 +1,13 @@
+.button-custom{
+    border: 1.5px solid #fff;
+    padding: 12px 25px;
+    text-align: center;
+}
+.text-button{
+    color: #fff;
+    font-family: 'Karla';
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}

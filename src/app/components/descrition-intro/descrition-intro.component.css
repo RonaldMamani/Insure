@@ -1,0 +1,42 @@
+.section{
+    position: relative;
+    background-color: #2D2641;
+}
+
+.pattern-top{
+    background: url(../../../assets/bg-pattern-intro-left-mobile.svg) no-repeat left;
+    width: 485px;
+    height: 450px;
+    position: absolute;
+    bottom: 41%;
+}
+
+.pattern-bottom{
+    background: url(../../../assets/bg-pattern-intro-right-mobile.svg) no-repeat right;
+    width: 375px;
+    height: 350px;
+    position: absolute;
+    top: 70%;
+}
+
+.sectionDescrition{
+    text-align: center;
+    padding: 90px 25px;
+}
+
+.titleDescrition{
+    font-family: 'DM Serif Display';
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -.67px;
+}
+
+.descrition{
+    font-family: 'Karla';
+    font-size: 18px;
+    font-family: 400;
+    color: #fff;
+    padding: 15px 0 45px;
+}

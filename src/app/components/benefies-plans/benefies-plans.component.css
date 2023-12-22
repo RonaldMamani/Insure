@@ -1,0 +1,17 @@
+.benefies-section{
+    padding: 140px 24px;
+    text-align: center;
+}
+.title{
+    font-family: 'DM Serif Display';
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -.7px;
+    margin: 40px 0 80px;
+}
+
+.benefies-group{
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}

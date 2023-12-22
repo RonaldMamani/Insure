@@ -4,6 +4,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { IntroHumanComponent } from './components/intro-human/intro-human.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { BenefiesPlansComponent } from './components/benefies-plans/benefies-plans.component';
 
 @Component({
   selector: 'app-root',
@@ -13,6 +14,7 @@ import { FooterComponent } from './components/footer/footer.component';
     RouterOutlet,
     HeaderComponent,
     IntroHumanComponent,
+    BenefiesPlansComponent,
     FooterComponent
   ],
   templateUrl: './app.component.html',

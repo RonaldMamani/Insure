@@ -1,5 +1,5 @@
 .bg-family{
     background: url('../../../assets/image-intro-mobile.jpg') no-repeat center;
-    width: 100%;
+    width: 100vw;
     height: 350px;
 }
