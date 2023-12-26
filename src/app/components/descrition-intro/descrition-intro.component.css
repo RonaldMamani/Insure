@@ -4,19 +4,22 @@
 }
 
 .pattern-top{
-    background: url(../../../assets/bg-pattern-intro-left-mobile.svg) no-repeat left;
-    width: 485px;
-    height: 450px;
+    background-image: url('../../../assets/bg-pattern-intro-left-mobile.svg');
+    background-repeat: no-repeat;
     position: absolute;
-    bottom: 41%;
+    padding: 350px 100px;
+    left: 0px;
+    top: 0px;
 }
 
 .pattern-bottom{
-    background: url(../../../assets/bg-pattern-intro-right-mobile.svg) no-repeat right;
-    width: 375px;
-    height: 350px;
+    background-image: url('../../../assets/bg-pattern-intro-right-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
     position: absolute;
-    top: 70%;
+    padding: 350px 63px;
+    right: 0px;
+    top: 0px;
 }
 
 .sectionDescrition{

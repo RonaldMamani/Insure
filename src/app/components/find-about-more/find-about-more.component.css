@@ -1,0 +1,30 @@
+.section-More{
+    background-color: #2D2641;
+    position: relative;
+    margin-top: 140px;
+}
+
+.content-More{
+    padding: 62px 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.title{
+    font-family: 'DM Serif Display';
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: -.6px;
+}
+
+.pattern-right{
+    background-image: url('../../../assets/bg-pattern-how-we-work-mobile.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    padding: 350px 90px;
+    right: 0px;
+    top: 0px;
+}

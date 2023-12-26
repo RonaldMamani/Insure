@@ -1,5 +1,15 @@
-.bg-family{
-    background: url('../../../assets/image-intro-mobile.jpg') no-repeat center;
-    width: 100vw;
-    height: 350px;
+@media screen and (max-width: 768px) {
+    .bg-family{
+        background: url('../../../assets/image-intro-mobile.jpg') no-repeat center;
+        width: 375px;
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .bg-family{
+        background: url('../../../assets/image-intro-desktop.jpg') no-repeat center;
+        width: 550px;
+        height: 650px;
+    }
 }

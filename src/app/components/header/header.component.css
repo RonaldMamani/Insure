@@ -2,11 +2,42 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px;
+    padding: 25px;
 }
 
 .logo{
     width: 112px;
     height: 18px;
     flex-shrink: 0;
+}
+
+@media screen and (max-width: 769px) {
+    .nav-mobile{
+        background-color: #2C2830;
+        width: 100vw;
+        text-align: center;
+        position: absolute;
+        z-index: 3;
+    }
+    .nav-mobile div{
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        position: relative;
+    }
+    .link{
+        color: #fff;
+        text-transform: uppercase;
+        font-family: 'Karla';
+        font-size: 24px;
+        font-weight: 400;
+        letter-spacing: 1.4px;
+    }
+    .pattern-nav{
+        background: url('../../../assets/bg-pattern-mobile-nav.svg') no-repeat top;
+        padding: 150px 150px;
+        position: absolute;
+        margin-top: 80px;
+    }
 }
