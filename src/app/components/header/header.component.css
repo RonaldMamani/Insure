@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
 }
 
 .logo{
@@ -11,7 +10,10 @@
     flex-shrink: 0;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
+    .header{
+        padding: 25px;
+    }
     .nav-mobile{
         background-color: #2C2830;
         width: 100vw;
@@ -39,5 +41,17 @@
         padding: 150px 150px;
         position: absolute;
         margin-top: 80px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .header{
+        padding: 31px 165px;
+    }
+    .nav-mobile{
+        display: none;
+    }
+    .icon{
+        display: none;
     }
 }

@@ -11,3 +11,10 @@
     font-weight: 700;
     letter-spacing: 1.5px;
 }
+
+.button-custom:hover .text-button , .button-custom:hover{
+    background-color: #fff;
+    color: #000;
+    transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1) ;
+    transition-duration: 150ms;
+}

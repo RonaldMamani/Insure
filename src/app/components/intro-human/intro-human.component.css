@@ -7,7 +7,15 @@
 }
 
 @media screen and (min-width: 767px) {
+    .intro{
+        position: relative;
+    }
     .bg-family{
+        position: absolute;
+        z-index: 2;
+        top: 105px;
+        right: 10px;
+
         background: url('../../../assets/image-intro-desktop.jpg') no-repeat center;
         width: 550px;
         height: 650px;
