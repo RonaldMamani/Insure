@@ -1,7 +1,3 @@
-.benefies-section{
-    padding: 140px 24px;
-    text-align: center;
-}
 .title{
     font-family: 'DM Serif Display';
     font-size: 48px;
@@ -14,4 +10,22 @@
     display: flex;
     flex-direction: column;
     gap: 56px;
+}
+
+@media screen and (max-width: 769px) {
+    .benefies-section{
+        padding: 140px 24px;
+        text-align: center;
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .benefies-section{
+        padding: 150px 165px;
+    }
+    .benefies-group{
+        flex-direction: row;
+        gap: 30px;
+    }
 }

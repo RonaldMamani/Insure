@@ -4,14 +4,6 @@
     margin-top: 140px;
 }
 
-.content-More{
-    padding: 62px 24px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
 .title{
     font-family: 'DM Serif Display';
     font-size: 40px;
@@ -20,11 +12,50 @@
     letter-spacing: -.6px;
 }
 
-.pattern-right{
-    background-image: url('../../../assets/bg-pattern-how-we-work-mobile.svg');
-    background-repeat: no-repeat;
-    position: absolute;
-    padding: 350px 90px;
-    right: 0px;
-    top: 0px;
+
+@media screen and (max-width: 768px) {
+    .content-More{
+        padding: 62px 24px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .pattern-right{
+        background-image: url('../../../assets/bg-pattern-how-we-work-mobile.svg');
+        background-repeat: no-repeat;
+        position: absolute;
+        padding: 350px 90px;
+        right: 0px;
+        top: 0px;
+    }
+    
+}
+
+@media screen and (min-width: 769px) {
+    .content-More{
+        padding: 42px 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .title{
+        font-size: 56px;
+        width: 475px;
+    }
+
+    .pattern-right{
+        background-image: url('../../../assets/bg-pattern-how-we-work-desktop.svg');
+        background-repeat: no-repeat;
+        position: absolute;
+        padding: 200px 215px;
+        right: 0px;
+        top: 0px;
+    }
+
+    .button{
+        z-index: 2;
+    }
 }
