@@ -1,27 +1,52 @@
+
 # Insure
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
+O projeto do Insure é um projeto rapido utilizando o Angular 17 para construir uma pagina landing page, utilizando o proprio angular com css puro, o site tem responsividade para telas mobile e desktop.
 
-## Development server
+## Screenshots
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![Insure](https://res.cloudinary.com/dz209s6jk/image/upload/v1578936686/Challenges/lljwpk1d1bsitc3jsibr.jpg)
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instalação
 
-## Build
+Clone o projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+  git clone https://github.com/RonaldMamani/Insure.git
+```
 
-## Running unit tests
+Entre no diretório do projeto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+  cd Insure
+```
 
-## Running end-to-end tests
+Instale as dependências do projeto
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+  npm install
+```
 
-## Further help
+Inicie o servidor
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+  npm run start
+```
+
+
+## Aprendizados
+
+O projeto do Insure foi um aprendizado para me atualizar sobre algumas novas funcionalidades do angular 17, sobre a utilização de if e else, a utilização de importações de componentes e tambem praticar com CSS puro ao inves de frameworks de estilização.
+
+
+## Stack utilizada
+
+**Front-end:** Angular17, Typescript e CSS.
+
+
+
+## Autores
+
+- [@Ronald_Mamani](https://github.com/RonaldMamani)
+
