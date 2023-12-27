@@ -1,48 +1,25 @@
-.footer{
-    background: url(../../../assets/bg-pattern-footer-mobile.svg) no-repeat top;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 88px 0;
-    gap: 40px;
-}
-
 .social{
     display: flex;
     align-items: center;
     gap: 18px;
 }
 
-.linkCompany{
-    border-top: #DADADA 1.5px solid;
-    width: 327px;
-    padding-top: 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
 .Group{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 36px;
 }
 
 .titleGroup{
     color: #837D88;
     font-family: 'Karla';
     font-size: 13px;
-    font-weight: 800;
+    font-weight: 400;
     letter-spacing: 1.5px;
 }
 
 .linksGroup{
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 16px;
 }
 
@@ -50,6 +27,74 @@
     color: #2D2641;
     font-family: 'Karla';
     font-size: 13px;
-    font-weight: '700';
+    font-weight: '800';
     letter-spacing: 1.5px;
+}
+.link:hover{
+    font-weight: bold;
+    color: #000;
+}
+
+@media screen and (max-width: 769px) {
+    .footer{
+        background: url(../../../assets/bg-pattern-footer-mobile.svg) no-repeat top;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 88px 0;
+        gap: 40px;
+    }
+    .Company{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .linkCompany{
+        border-top: #DADADA 1.5px solid;
+        width: 327px;
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .Group{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 36px;
+    }
+    .linksGroup{
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer{
+        background: url(../../../assets/bg-pattern-footer-desktop.svg) no-repeat left top;
+        display: flex;
+        flex-direction: column;
+        padding: 65px 165px;
+        gap: 40px;
+    }
+    .Company{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .linkCompany{
+        border-top: #DADADA 1.5px solid;
+        padding-top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 40px;
+    }
+    .Group{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 36px;
+    }
 }

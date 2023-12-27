@@ -103,6 +103,6 @@
         padding: 45px 0 36px;
     }
     .invisible{
-        display: block;
+        display: flex;
     }
 }

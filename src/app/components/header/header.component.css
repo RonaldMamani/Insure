@@ -42,6 +42,9 @@
         position: absolute;
         margin-top: 80px;
     }
+    .nav-desk{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 769px) {
@@ -53,5 +56,31 @@
     }
     .icon{
         display: none;
+    }
+    .nav-desk{
+        display: flex;
+        gap: 30px;
+        text-align: center;
+        align-items: center;
+    }
+    .link{
+        min-width: 125px;
+    }
+    .link:hover{
+        color: #000;
+        font-weight: bold;
+    }
+
+    .plans{
+        padding: 13px 30px;
+        background-color: #000;
+        color: #fff;
+        min-width: 150px;
+    }
+    .plans:hover{
+        opacity: 0.75;
+    }
+    .nav-desk{
+        margin-left: 640px;
     }
 }
